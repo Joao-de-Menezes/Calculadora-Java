@@ -9,7 +9,7 @@ public class MetodosCalculadora {
 	 * @param num2 Segundo número
 	 * @return resultado da soma
 	 */
-    public static double soma(double num1, double num2) {
+    public double soma(double num1, double num2) {
         return num1 + num2;
     }
 
@@ -20,7 +20,7 @@ public class MetodosCalculadora {
 	 * @param num2 Segundo número
 	 * @return resultado da subtração
 	 */
-    public static double subtracao(double num1, double num2) {
+    public double subtracao(double num1, double num2) {
         return num1 - num2;
     }
 
@@ -31,7 +31,7 @@ public class MetodosCalculadora {
 	 * @param num2 Segundo número
 	 * @return resultado da soma
 	 */
-    public static double multiplicacao(double num1, double num2) {
+    public double multiplicacao(double num1, double num2) {
         return num1 * num2;
     }
 
@@ -46,7 +46,7 @@ public class MetodosCalculadora {
      * @return o resultado da divisão
      * @throws ArithmeticException se o divisor for zero
      */
-    public static double divisao(double num1, double num2) {
+    public double divisao(double num1, double num2) {
         if (num2 == 0) {
             throw new ArithmeticException("Você não pode dividir por zero!");
         }
@@ -64,7 +64,7 @@ public class MetodosCalculadora {
      * @return o resultado da divisão
      * @throws ArithmeticException se o divisor for zero
      */
-    public static double resto(double num1, double num2) {
+    public  double resto(double num1, double num2) {
         if (num2 == 0) {
             throw new ArithmeticException("Você não pode calcular o resto com divisor zero!");
         }
